@@ -1,0 +1,4 @@
+2026-06-08 12:33:05 | Cliente: Ana López | Producto: Mouse inalámbrico | Cantidad: 2 | Total: $499.80
+2026-06-08 12:33:05 | Cliente: Carlos Pérez | Producto: Teclado mecánico | Cantidad: 1 | Total: $899.00
+2026-06-08 15:50:03 | Cliente: Ana López | Producto: Mouse inalámbrico | Cantidad: 2 | Total: $499.80
+2026-06-08 15:50:03 | Cliente: Carlos Pérez | Producto: Teclado mecánico | Cantidad: 1 | Total: $899.00

@@ -1,0 +1,70 @@
+{
+    "productos": [
+        {
+            "sku": "P001",
+            "nombre": "Mouse inalámbrico",
+            "precio": 249.9,
+            "stock": 11
+        },
+        {
+            "sku": "P002",
+            "nombre": "Teclado mecánico",
+            "precio": 899.0,
+            "stock": 6
+        },
+        {
+            "sku": "P003",
+            "nombre": "Monitor 24 pulgadas",
+            "precio": 3299.0,
+            "stock": 4
+        },
+        {
+            "sku": "P004",
+            "nombre": "Xbox",
+            "precio": 9999.0,
+            "stock": 5
+        }
+    ],
+    "ventas": [
+        {
+            "id": 1,
+            "fecha": "2026-06-08 12:40:53",
+            "cliente": "Ana López",
+            "sku_producto": "P001",
+            "nombre_producto": "Mouse inalámbrico",
+            "cantidad": 2,
+            "precio_unitario": 249.9,
+            "total": 499.8
+        },
+        {
+            "id": 2,
+            "fecha": "2026-06-08 12:40:53",
+            "cliente": "Carlos Pérez",
+            "sku_producto": "P002",
+            "nombre_producto": "Teclado mecánico",
+            "cantidad": 1,
+            "precio_unitario": 899.0,
+            "total": 899.0
+        },
+        {
+            "id": 3,
+            "fecha": "2026-06-08 16:03:21",
+            "cliente": "Ana López",
+            "sku_producto": "P001",
+            "nombre_producto": "Mouse inalámbrico",
+            "cantidad": 2,
+            "precio_unitario": 249.9,
+            "total": 499.8
+        },
+        {
+            "id": 4,
+            "fecha": "2026-06-08 16:03:21",
+            "cliente": "Carlos Pérez",
+            "sku_producto": "P002",
+            "nombre_producto": "Teclado mecánico",
+            "cantidad": 1,
+            "precio_unitario": 899.0,
+            "total": 899.0
+        }
+    ]
+}

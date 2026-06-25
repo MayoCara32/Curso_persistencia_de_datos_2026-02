@@ -1,0 +1,50 @@
+Project sistema_ventas {
+  database_type: 'SQLite'
+  Note: 'Modelo relacional básico para un sistema de ventas usando clientes, productos, ventas y detalle_ventas.'
+}
+
+Table clientes {
+  id_cliente integer [pk]
+  nombre text [not null]
+  correo text [not null, unique]
+  telefono text
+  ciudad text
+
+  Note: 'Guarda los datos propios del cliente. No debe guardar ventas ni productos.'
+}
+
+Table productos {
+  id_producto integer [pk]
+  sku text [not null, unique]
+  nombre text [not null]
+  categoria text [not null]
+  precio real [not null]
+  stock integer [not null]
+  activo integer [not null]
+
+  Note: 'Guarda los datos propios del producto. No debe guardar datos de ventas.'
+}
+
+Table ventas {
+  id_venta integer [pk]
+  id_cliente integer [not null]
+  fecha text [not null]
+  total real [not null]
+
+  Note: 'Guarda el encabezado de la venta. Se conecta con clientes por id_cliente.'
+}
+
+Table detalle_ventas {
+  id_detalle integer [pk]
+  id_venta integer [not null]
+  id_producto integer [not null]
+  cantidad integer [not null]
+  precio_unitario real [not null]
+  subtotal real [not null]
+
+  Note: 'Tabla intermedia. Conecta ventas con productos y guarda cantidad, precio y subtotal.'
+}
+
+Ref: ventas.id_cliente > clientes.id_cliente
+Ref: detalle_ventas.id_venta > ventas.id_venta
+Ref: detalle_ventas.id_producto > productos.id_producto

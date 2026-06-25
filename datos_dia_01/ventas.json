@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "fecha": "2026-06-08 10:30:00",
+        "cliente": {
+            "nombre": "Ana López",
+            "correo": "ana@example.com"
+        },
+        "productos": [
+            {
+                "sku": "P001",
+                "nombre": "Mouse inalámbrico",
+                "cantidad": 2,
+                "precio_unitario": 249.9
+            },
+            {
+                "sku": "P002",
+                "nombre": "Teclado mecánico",
+                "cantidad": 1,
+                "precio_unitario": 899.0
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "fecha": "2026-06-08 11:15:00",
+        "cliente": {
+            "nombre": "Carlos Pérez",
+            "correo": "carlos@example.com"
+        },
+        "productos": [
+            {
+                "sku": "P003",
+                "nombre": "Monitor 24 pulgadas",
+                "cantidad": 1,
+                "precio_unitario": 3299.0
+            }
+        ]
+    }
+]
