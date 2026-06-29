@@ -1,0 +1,8 @@
+﻿id_producto,sku,nombre,categoria,precio,stock,activo
+6,P006,Bocinas Bluetooth,Audio,699.0,10,1
+4,P004,Cable HDMI,Cables,120.0,20,1
+5,P005,Memoria USB 64GB,Almacenamiento,150.0,30,1
+3,P003,Monitor 24 pulgadas,Pantallas,3299.0,3,1
+1,P001,Mouse inalámbrico,Accesorios,249.9,9,1
+2,P002,Teclado mecánico,Accesorios,899.0,5,1
+7,P007,Webcam HD,Accesorios,6500.0,10,0

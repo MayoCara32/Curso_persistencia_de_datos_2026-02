@@ -1,0 +1,8 @@
+﻿id_venta,fecha,estado,cliente,correo,sku,producto,cantidad,precio_unitario,subtotal,total_venta
+4,2026-06-26 16:03:40,ACTIVA,Ana López,ana@example.com,P003,Monitor 24 pulgadas,1,3299.0,3299.0,3299.0
+3,2026-06-26 16:02:02,ACTIVA,Ana López,ana@example.com,P001,Mouse inalámbrico,2,249.9,499.8,1398.8
+3,2026-06-26 16:02:02,ACTIVA,Ana López,ana@example.com,P002,Teclado mecánico,1,899.0,899.0,1398.8
+2,2026-06-26 16:01:46,ACTIVA,Ana López,ana@example.com,P001,Mouse inalámbrico,2,249.9,499.8,1398.8
+2,2026-06-26 16:01:46,ACTIVA,Ana López,ana@example.com,P002,Teclado mecánico,1,899.0,899.0,1398.8
+1,2026-06-25 18:48:23,ACTIVA,Ana López,ana@example.com,P001,Mouse inalámbrico,2,249.9,499.8,1398.8
+1,2026-06-25 18:48:23,ACTIVA,Ana López,ana@example.com,P002,Teclado mecánico,1,899.0,899.0,1398.8
